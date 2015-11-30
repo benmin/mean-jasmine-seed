@@ -1,6 +1,6 @@
 {
-  "name": "angular-express-seed",
-  "version": "0.0.0",
+  "name": "angular-express-jasmine",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
