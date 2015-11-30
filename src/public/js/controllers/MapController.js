@@ -1,14 +1,4 @@
-var app = angular.module('App', ['chart.js']);
-
-app.controller("PieChartController", ['$scope', '$http', function ($scope, $http) {
-  $scope.labels = ["Download Sales", "In-Store Sales", "Mail-Order Sales"];
-  $scope.data = [300, 500, 100];
-  $scope.onClick = function(item, event) {
-	  
-  };
-}]);
-
-app.controller('MapController', ['$scope', '$http', function ($scope, $http) {
+angular.module('App').controller('MapController', ['$scope', '$http', function ($scope, $http) {
 	
 	$http({
 	    method: 'GET',
