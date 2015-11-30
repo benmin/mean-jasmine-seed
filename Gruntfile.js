@@ -85,6 +85,7 @@ module.exports = function(grunt) {
 	});
 	
 	grunt.registerTask('test', ['karma','jasmine']);
-	grunt.registerTask('build', ['jshint','clean:build','copy','uglify','autoprefixer','cssmin','clean:js','clean:css','processhtml']);
+	// TODO fix autoprefixer, and re-add it to the build task
+	grunt.registerTask('build', ['jshint','clean:build','copy','uglify','cssmin','clean:js','clean:css','processhtml']);
 
 };
