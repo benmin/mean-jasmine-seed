@@ -1,0 +1,5 @@
+Gruntfile.js
+spec/**
+public/test/**
+node_modules/**
+bower_components/**

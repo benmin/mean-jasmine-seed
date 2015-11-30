@@ -1,0 +1,38 @@
+<html>
+
+<head>
+
+	<!-- import external dependencies -->
+	
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/Chart.js/Chart.js"></script>
+	<script src="bower_components/angular-chart.js/dist/angular-chart.js"></script>
+	<script src="bower_components/ammap/dist/ammap/ammap.js"></script>
+	<script src="bower_components/ammap/dist/ammap/maps/js/worldLow.js"></script>
+	
+	<link rel="stylesheet" href="bower_components/angular-chart.js/dist/angular-chart.css">
+	<link rel="stylesheet" href="bower_components/ammap/dist/ammap/ammap.css">
+	
+	<!-- build:js app.min.js -->
+	<script src="js/App.js"></script>
+	<!-- /build -->
+	
+	<!-- build:css style.min.css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- /build -->
+	
+</head>
+
+<body ng-app="App">
+
+	<div ng-controller="PieChartController">
+		<canvas id="pie-chart" class="chart chart-pie" chart-data="data" chart-labels="labels" chart-click="onClick"></canvas>
+	</div>
+	
+	<div ng-controller="MapController">
+		<div id="mapdiv" style="width: 1000px; height: 700px;"></div>
+	</div>
+	
+</body>
+
+</html>

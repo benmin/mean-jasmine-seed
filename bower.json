@@ -1,0 +1,25 @@
+{
+  "name": "NodeExpressSeed",
+  "description": "node and express seed project",
+  "main": "app.js",
+  "authors": [
+    "benmin <forgivenson@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Chart.js": "chartjs#~1.0.2",
+    "ammap": "~3.14.5",
+    "angular": "~1.4.8",
+    "angular-chart.js": "angular-chartjs#~0.8.5"
+  }
+}
