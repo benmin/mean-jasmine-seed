@@ -42,6 +42,16 @@ To test, check the version (note the uppercase V this time).
 express -V
 ```
 
+#### Install grunt
+Grunt is a very useful javascript task runner, and this project comes with some pre-defined grunt tasks to make your life a little easier. You will need to install grunt using npm, as usual.
+```
+npm install grunt -g
+```
+Again, uppercase V to check with the version.
+```
+grunt -V
+```
+
 #### Install git
 You will need git to checkout the repository, so go ahead and install that. https://git-scm.com
 
@@ -52,4 +62,7 @@ Use git to clone your new repository to your computer.
 git clone <repo_url>
 ```
 
-## Time to develop!
+## Time to Code!
+So now you have the command-line tools you will need, as well as the code. You are ready to code!
+
+Before you can run the code, you will need to install the dependencies for the project. The server-side dependencies are listed in the `package.json` file in the root directory. The client-side dependencies are listed in the `bower.json` file, also located in the root directory.
